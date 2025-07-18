@@ -13,10 +13,6 @@ A personal portfolio website built using **React** to showcase my projects, tech
 - [Deployment](#-deployment)
 - [Challenges & Solutions](#-challenges--solutions)
 - [Installation & Local Setup](#-installation--local-setup)
-- [Screenshots](#-screenshots)
-- [Contributing](#-contributing)
-- [License](#-license)
-
 ---
 
 ## 🛠 Tech Stack
