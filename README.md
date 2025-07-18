@@ -1,74 +1,83 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# 💼 Shrutika Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A personal portfolio website built using **React** to showcase my projects, technical skills, resume, and ways to contact me. This site serves as my professional online presence and is optimized for responsiveness, performance, and SEO.
 
-## Available Scripts
+🌐 [Live Website](https://shrutika-portfolio-iota.vercel.app/about)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📌 Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Tech Stack](#-tech-stack)
+- [Development Process](#-development-process)
+- [Deployment](#-deployment)
+- [Challenges & Solutions](#-challenges--solutions)
+- [Installation & Local Setup](#-installation--local-setup)
+- [Screenshots](#-screenshots)
+- [Contributing](#-contributing)
+- [License](#-license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend:** React, JSX, CSS Modules / Bootstrap
+- **Routing:** React Router DOM
+- **Icons & Styling:** Font Awesome / Bootstrap Icons
+- **Deployment:** Vercel
+- **Version Control:** Git & GitHub
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🏗️ Development Process
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Initial Setup:**
+   - Used `create-react-app` to scaffold the project.
+   - Installed dependencies like `react-router-dom`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Component Design:**
+   - Broke the site into modular sections (About, Projects, Skills, etc.).
+   - Created reusable components like Navbar, Footer, and Cards.
 
-### `npm run eject`
+3. **Styling:**
+   - Used responsive layouts with Bootstrap and Flexbox.
+   - Added media queries for mobile responsiveness.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Routing:**
+   - Configured React Router for smooth navigation without page reloads.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. **Resume Integration:**
+   - Embedded a PDF resume with a download option.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+6. **Contact Form:**
+   - Designed using controlled components.
+   - (Optional enhancement: integrate with Formspree or EmailJS for working submissions).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🚀 Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Platform:** [Vercel](https://vercel.com/)
+- **Steps:**
+  1. Connected GitHub repo to Vercel
+  2. Automatic deployment triggered on push to `main` branch
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## ⚠️ Challenges & Solutions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| Challenge | Solution |
+|----------|----------|
+| Resume not showing in some browsers | Ensured resume file is in `public/` and linked properly with `target="_blank"` |
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 💻 Installation & Local Setup
 
-### Making a Progressive Web App
+To run this project locally:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# shrutika_portfolio
->>>>>>> 2c9623ae5a9858e8db4dd1679751efe065566bf4
+```bash
+git clone https://github.com/Shrutika6199/shrutika_portfolio.git
+cd shrutika_portfolio
+npm install
+npm start
